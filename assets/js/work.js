@@ -31,7 +31,7 @@ $(".job").hover(function() {
 	$(last_hovered).fadeIn();
 
 }, function() {
-	$(this).css("background-color","none");
+	$(this).css("background-color","white");
 	$(this).css("color", "#95989A");
 	$(last_hovered).hide();
 	$("#left-side1").show();
