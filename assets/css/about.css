@@ -1,0 +1,169 @@
+body, html {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+::selection {
+	background: pink;
+}
+
+
+/*---------------LOGO-START--------------*/
+
+#left-side {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	left: 0px;
+}
+
+.ls-container {
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.top-container {
+	text-align: center;
+}
+
+.name {
+	font-size: 25px;
+	letter-spacing: 16px;
+	color: #95989A;
+	margin-left: 16px;
+	margin-bottom: 20px;
+}
+
+.hello {
+	font-size: 100px;
+	color: #95989A;
+	margin-bottom: 10px;
+}
+
+.item-container {
+}
+
+.item {
+	font-size: 15px;
+	color: #95989A;
+	width: 130px;
+	height: 25px;
+	display: inline-block;
+	border: 3px solid #95989A;
+	margin-left: 20px;
+	padding-top: 10px; 
+}
+
+#about {
+	position: relative;
+	margin-left: 0;
+	color: white;
+	background-color: #95989A;
+}
+
+.item:hover {
+	color: white;
+	background-color: #95989A;
+	cursor: pointer;
+}
+
+.item:active {
+	background-color: #777777;
+	border: 3px solid #777777;
+}
+
+.fa {
+    padding: 6px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+/*.fa {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+}
+
+  /*padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;*/
+
+.fa:active {
+    background-color: #777777;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-envelope-open-o, .fa-facebook, .fa-instagram,.fa-linkedin {
+    background: #95989A;
+    color: white;
+}
+
+.social-container {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+
+}
+
+/*---------------LOGO-END--------------*/
+
+#right-side {
+	height: 100%;
+	width: 50%;
+	position: absolute;
+	right: 0;
+}
+
+.rs-container {
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.title {
+	font-size: 25px;
+	letter-spacing: 16px;
+	color: #95989A;
+	margin-bottom: 15px;
+}
+
+img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+	color: #95989A;
+	line-height: 20px;
+	text-align: left;
+}
+
+
