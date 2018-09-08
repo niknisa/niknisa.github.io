@@ -217,7 +217,7 @@ p {
 
 /*--------------------------------------*/
 
-.ls-container2-1, .ls-container2-2, .ls-container2-3, .ls-container2-4, .ls-container2-5, .ls-container2-6, .ls-container2-7{
+.ls-container2-1, .ls-container2-2, .ls-container2-3, .ls-container2-4, .ls-container2-5, .ls-container2-6, .ls-container2-7, .ls-container2-8{
 	display: none;
 }
 
@@ -263,7 +263,7 @@ p {
 	left: 0px;
 }
 
-.ls-container2-1,.ls-container2-2,.ls-container2-3,.ls-container2-4,.ls-container2-5,.ls-container2-6, .ls-container2-7 {
+.ls-container2-1,.ls-container2-2,.ls-container2-3,.ls-container2-4,.ls-container2-5,.ls-container2-6, .ls-container2-7, .ls-container2-8 {
 	width: 100%;
 	height: 100%;
 	background: #EDEDED;
